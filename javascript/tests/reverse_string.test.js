@@ -4,6 +4,10 @@ test("can handle an empty string", () => {
   expect(reverseString("")).toBe("");
 });
 
+test("it can fuck", () => {
+  expect(reverseString("fuck")).toBe("kcuf");
+});
+
 test("can handle a single character", () => {
   expect(reverseString("a")).toBe("a");
 }); 

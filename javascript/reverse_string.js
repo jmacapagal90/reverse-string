@@ -7,6 +7,8 @@ function reverseString(str) {
   return reverse_string
 }
 
+reverseString("fuck")
+
 if (require.main === module) {
   // add your own tests in here
   console.log("Expecting: 'ih'");
